@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: #007bff;
+
+}
+
+
+.name-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.name-header {
+
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 4em;
+}
+.levels{
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.levels-ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+.trian-one-parent{
+
+    display: flex;
+    align-items: center;
+}
+.trian-one{
+    width: 15px;
+    height: 19px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+.li-text{
+    color: white ;
+    background-color: rgba(255, 255, 255, 0.2);
+   border: 0.1px solid white;
+   border-top: none;
+   border-bottom:none;
+   font-weight: 500;
+    font-style: normal;
+}
+.li-text:hover{
+    background-color: rgba(255, 255, 255, 0.358); 
+}
+.trian-two-parent{
+
+}
+.trian-two{
+    width: 15px;
+    height: 19px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.trian-two:hover{
+    background-color: rgba(255, 255, 255, 0.358); 
+}
+.parent-to-screen {
+    display: flex;
+
+}
+
+.text-explain {
+    width: 29em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+}
+
+.second-screen {
+    background: url(../img/second-space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.pull-sector {
+    width: 100%;
+    height: 980%;
+    color: black;
+    font-weight: 800;
+    font-size: 2em;
+    resize: none;
+    border: none;
+}
+
+.button-sent-item {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 4%;
+    display: none;
+}
+
+.theme-of-the-game{
+    margin: 0 auto;
+    padding: 25px;
+    color: white;
+    width: 24em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 70px;
+    text-align: center;
+}
+.question-window{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    width: 28em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 22px;
+    padding: 25px 0px 10px 0px;
+}
+.position-text{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.variants-of-decision {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+
+.swal2-confirm {
+background-color: #007Bff  !important
+}
+.swal2-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.swal2-html-container{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+button {
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: 1px black solid;
+    outline: none;
+    padding: 1.2rem 2rem;
+    cursor: pointer;
+    user-select: none;
+
+  }
+
+.active {
+    background-color: rgb(91, 224, 91);
+    
+}
+.not-right{
+    background-color: rgb(239, 86, 86);
+    
+}
+
+
+
+#first-answer {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+#second-answer{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#third-answer  {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#fourth-answer {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: 1px solid white;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #007Bff, #007Bff, white, #007Bff);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.two-pictures{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#cody-character {
+    width: 150px;
+    height: 140px;
+   position: absolute;
+    top: 50px;
+    left: 60%;
+    transition: 2s
+}
+.cody-move{
+    /* margin-right: 100px ; */
+}
+.cody-racket-parent{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+.cody-racket {
+    margin-top: 430px;
+    
+    width: 450px;
+    height:240px;
+}
+.cody-charackter-parent{
+    display: flex;
+    justify-content: start;
+    align-items:start    ;
+}
